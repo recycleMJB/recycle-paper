@@ -4,9 +4,9 @@ export const SITE: Site = {
   website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
   author: "Sat Naing",
   profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  desc: "Recycle.mjb est une association créée pour objectif principal la réduction de l’empreinte écologique de l’individu",
+  title: "RecycleMJB",
+  ogImage: "logoRecycleAlpha.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
