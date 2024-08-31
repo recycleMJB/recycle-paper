@@ -15,7 +15,7 @@ let tags = getUniqueTags(posts);
 
 <Layout title={`Agenda | ${SITE.title}`}>
   <Header activeNav="agenda" />
-  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=UTC&bgcolor=%23ffffff&showTitle=0&showDate=0&showNav=0&showTabs=0&showPrint=0&showCalendars=0&showTz=0&mode=AGENDA&src=MjBiZjkyYWFlZmVjNWIxMGI4NzQ2ZmUwZjAyYjM4OTBhMmY1MjVhOGZlZDdlMGI4N2U0NjU1ZmFmMzFlNGZjMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F4511E" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=UTC&bgcolor=%2321273&showTitle=0&showDate=0&showNav=0&showTabs=0&showPrint=0&showCalendars=0&showTz=0&mode=AGENDA&src=MjBiZjkyYWFlZmVjNWIxMGI4NzQ2ZmUwZjAyYjM4OTBhMmY1MjVhOGZlZDdlMGI4N2U0NjU1ZmFmMzFlNGZjMUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F4511E" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
   <Main pageTitle="Agenda" pageDesc="All the tags used in posts.">
     <ul>
       {tags.map(({ tag }) => <Tag {tag} size="lg" />)}
